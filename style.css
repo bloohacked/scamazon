@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+a{
+    color: black;
+}
 .button {
     background-color: white;
     border: none;
@@ -78,4 +81,5 @@ input[type=text], select {
     border-color: black;
     text-align: center;
     width: fit-content;
+    display: inline-block;
 }
