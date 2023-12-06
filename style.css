@@ -65,11 +65,17 @@ input[type=text], select {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 12px;
     box-sizing: border-box;
   }
-  .listing {    
-    border: 2px outset white;
+.listing {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: black;
     text-align: center;
     width: fit-content;
-  }
+}
